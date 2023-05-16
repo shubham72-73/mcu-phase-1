@@ -1,0 +1,61 @@
+/* Body Styles */
+body{
+	background-color: rgb(46, 41, 41);
+}
+
+
+/* Logo Styles */
+.logo{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	background-image: linear-gradient(rgb(82, 82, 245), rgb(108, 242, 108));
+	border-radius: 5px;
+}
+.marvel-logo img{
+	height: 50px;
+}
+
+
+/* Navigation Styles */
+nav {
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+nav a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 11px;
+}
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Movie list Styles */
+.avengers{
+	display: flex;
+	flex-direction: column;
+}
+.movie{
+	display: flex;
+	padding: 8px;
+}
+.superhero img{
+	height: 200px;
+	width: 150px;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+.storyline{
+	color: aliceblue;
+	padding: 15px;
+}
